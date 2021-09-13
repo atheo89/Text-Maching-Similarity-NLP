@@ -1,118 +1,54 @@
 {
     "contact": [
-        [{
-            "event_type": "LeftClick",  
-            "element_name": "Contact Customer"
-            },
+        [
             {
-            "event_type": "TypeText",
-            "element_name": "Purchase Number",
             "text_value": "2005X-3045B-1569J"
             },
             {
-            "event_type": "TypeText",
-            "element_name": "Customer ID",
             "text_value": "67A23B"
             },
             {
-            "event_type": "TypeText",
-            "element_name": "Message Body",
             "text_value": "Dear Ms. A, can you confirm your purchase of a plane ticket to Hong Kong?"
-            },
-            {
-            "event_type": "LeftClick",
-            "element_name": "Send Request"
             }
         ],
-        [{
-            "event_type": "LeftClick",  
-            "element_name": "Contact Customer"
-            },
+        [
             {
-            "event_type": "TypeText",
-            "element_name": "Purchase Number",
             "text_value": "3865T-0665J-5443D"
             },
             {
-            "event_type": "TypeText",
-            "element_name": "Customer ID",
             "text_value": "E43AC2"
             },
             {
-            "event_type": "TypeText",
-            "element_name": "Message Body",
             "text_value": "Dear Mr. B, can you confirm your purchase of a meal in Hong Kong?"
-            },
-            {
-            "event_type": "LeftClick",
-            "element_name": "Send Request"
             }
         ],
-        [{
-            "event_type": "LeftClick",  
-            "element_name": "Contact Customer"
-            },
+        [
             {
-            "event_type": "TypeText",
-            "element_name": "Purchase Number",
+
             "text_value": "9834K-1239Y-8733N"
             },
             {
-            "event_type": "TypeText",
-            "element_name": "Customer ID",
             "text_value": "983D1C"
             },
             {
-            "event_type": "TypeText",
-            "element_name": "Message Body",
             "text_value": "Dear Mrs. C, can you confirm your purchase of a plane ticket to New York?"
-            },
-            {
-            "event_type": "LeftClick",
-            "element_name": "Send Request"
             }
         ]
     ],
     "respond": [
-        [{
-            "event_type": "LeftClick",
-            "element_name": "Open Response"
-          },
+        [
+          
           {
-            "event_type": "LeftClick",
-            "element_name": "Accept Purchase"
-          },
-          {
-            "event_type": "TypeText",
-            "element_name": "Notes",
             "text_value": "Mrs. C approved purchase of a plane ticket to New York, purchase number: 9834K-1239Y-8733N."
           }
         ],
-        [{
-            "event_type": "LeftClick",
-            "element_name": "Open Response"
-          },
+        [
           {
-            "event_type": "LeftClick",
-            "element_name": "Reject Purchase"
-          },
-          {
-            "event_type": "TypeText",
-            "element_name": "Notes",
             "text_value": "Mr. B rejected purchase of a meal in Hong Kong, purchase number: 3865T-0665J-5443D."
           }
         ],
-        [{
-            "event_type": "LeftClick",
-            "element_name": "Open Response"
-          },
+        [
           {
-            "event_type": "LeftClick",
-            "element_name": "Accept Purchase"
-          },
-          {
-            "event_type": "TypeText",
-            "element_name": "Notes",
             "text_value": "Ms. A approved purchase of a plane ticket to Hong Kong, purchase number: 2005X-3045B-1569J."
           }
         ]

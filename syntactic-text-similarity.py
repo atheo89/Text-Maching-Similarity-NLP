@@ -20,17 +20,11 @@ def extract_value_text(data):
         _txt_str: String 
     """
     _txt = []
-    _evnt = []
-    _elm = []
     _misc =[]
     for i in range(len(data)): 
         for key, value in data[i].items(): 
             if key == 'text_value':
                 _txt.append(value)
-            elif key == 'event_type':
-                _evnt.append(value)
-            elif key == 'element_name':
-                _elm.append(value)
             else:
                 _misc.append(value)
     _txt_str=' '.join(_txt) 
